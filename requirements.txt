@@ -1,0 +1,35 @@
+# --- Ядро и работа с данными ---
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm
+python-dateutil
+openpyxl
+pyarrow
+fastparquet
+
+# --- NLP и Эмбеддинги ---
+transformers>=4.40.0
+sentence-transformers
+rank_bm25
+faiss-cpu>=1.7.0 
+
+# --- LLM и Инференс (vLLM) ---
+vllm>=0.4.0
+torch
+accelerate
+
+# --- Инструменты поиска и классификации ---
+scikit-learn
+scipy
+
+# --- Сбор данных и системные утилиты ---
+telethon
+requests
+python-dotenv
+SQLAlchemy
+schedule
+
+# --- Визуализация (для графиков в ноутбуках) ---
+matplotlib
+seaborn
+ipykernel
